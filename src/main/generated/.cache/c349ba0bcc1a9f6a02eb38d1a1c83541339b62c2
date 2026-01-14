@@ -1,3 +1,4 @@
 // 1.21.11	-999999999-01-01T00:00:00	medivalism/Block Loot Tables
-db05485ae2404859d28a9944153b4b8658b2d17f data/medivalism/loot_table/blocks/argentium_ore.json
-fc77b2fb4c311feb3114978ce2cde02288d592fa data/medivalism/loot_table/blocks/deepslate_argentium_ore.json
+e10c97afc470efbd87a994796ca660ec014b6513 data/medivalism/loot_table/blocks/argentium_block.json
+74b3ac60e42e39f38787323c45ef2e4025df1ae2 data/medivalism/loot_table/blocks/argentium_ore.json
+f5b99704a389e8953a0c1961f5235495adb35136 data/medivalism/loot_table/blocks/deepslate_argentium_ore.json

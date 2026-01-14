@@ -22,7 +22,8 @@ public class ModBlocks {
     public static final Block DEEPSLATE_ARGENTIUM_ORE = registerBlock("deepslate_argentium_ore",
             settings -> new Block(settings.strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
-
+    public static final Block ARGENTIUM_BLOCK = registerBlock("argentium_block",
+            settings -> new Block(settings.strength(4f)));
 
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function) {
         Block toRegister = function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Medivalism.MOD_ID, name))));

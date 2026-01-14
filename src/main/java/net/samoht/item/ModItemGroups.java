@@ -19,6 +19,7 @@ public class ModItemGroups {
                     .entries(((displayContext, entries) -> {
                         entries.add(ModBlocks.ARGENTIUM_ORE);
                         entries.add(ModBlocks.DEEPSLATE_ARGENTIUM_ORE);
+                        entries.add(ModBlocks.ARGENTIUM_BLOCK);
                     })).build());
 
     public static final ItemGroup INGREDIENTS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -27,6 +28,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.ARGENTIUM_ORE))
                     .displayName(Text.translatable("itemgroup.medivalism.ingredients_group"))
                     .entries(((displayContext, entries) -> {
+                        entries.add(ModItems.ARGENTIUM_INGOT);
+                        entries.add(ModItems.RAW_ARGENTIUM);
                     })).build());
 
     public static final ItemGroup COMBAT_GROUP = Registry.register(Registries.ITEM_GROUP,

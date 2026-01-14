@@ -1,4 +1,7 @@
 {
+  "block.medivalism.argentium_block": "Block d'Argentium",
   "block.medivalism.argentium_ore": "Minerai d'Argentium",
-  "block.medivalism.deepslate_argentium_ore": "Minerai d'Argentium des abîmes"
+  "block.medivalism.deepslate_argentium_ore": "Minerai d'Argentium des abîmes",
+  "item.medivalism.argentium_ingot": "Lingot d'argentium",
+  "item.medivalism.raw_argentium": "Argentium brut"
 }

@@ -1,4 +1,7 @@
 {
+  "block.medivalism.argentium_block": "Argentium Block",
   "block.medivalism.argentium_ore": "Argentium Ore",
-  "block.medivalism.deepslate_argentium_ore": "Deepslate Argentium Ore"
+  "block.medivalism.deepslate_argentium_ore": "Deepslate Argentium Ore",
+  "item.medivalism.argentium_ingot": "Argentium Ingot",
+  "item.medivalism.raw_argentium": "Raw Argentium"
 }

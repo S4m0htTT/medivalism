@@ -15,6 +15,7 @@ import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.samoht.block.ModBlocks;
+import net.samoht.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -25,12 +26,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        // addDrop(ModBlock.ARGENTIUM_ORE, multipleOreDrops(ModBlock.ARGENTIUM_ORE, ModItems.RAW_ARGENTIUM_ORE, 3, 5));
-        // addDrop(ModBlock.DEEPSLATE_ARGENTIUM_ORE, multipleOreDrops(ModBlock.DEEPSLATE_ARGENTIUM_ORE, ModItems.RAW_DEEPSLATE_ARGENTIUM_ORE, 3, 5));
-
-        // TODO Replace this by the two lines above
-        addDrop(ModBlocks.ARGENTIUM_ORE);
-        addDrop(ModBlocks.DEEPSLATE_ARGENTIUM_ORE);
+        addDrop(ModBlocks.ARGENTIUM_ORE, multipleOreDrops(ModBlocks.ARGENTIUM_ORE, ModItems.RAW_ARGENTIUM, 2, 5));
+        addDrop(ModBlocks.DEEPSLATE_ARGENTIUM_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_ARGENTIUM_ORE, ModItems.RAW_ARGENTIUM, 3, 6));
+        addDrop(ModBlocks.ARGENTIUM_BLOCK);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

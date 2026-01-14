@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "argentium",
+  "ingredient": "medivalism:argentium_ore",
+  "result": {
+    "id": "medivalism:argentium_ingot"
+  }
+}
