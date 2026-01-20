@@ -6,6 +6,7 @@ import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
 import net.samoht.block.ModBlocks;
+import net.samoht.item.ModArmorMaterials;
 import net.samoht.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -24,5 +25,10 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RAW_ARGENTIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARGENTIUM_INGOT, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(ModItems.ARGENTIUM_HELMET, ModArmorMaterials.ARGENTIUM_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ModItems.ARGENTIUM_CHESTPLATE, ModArmorMaterials.ARGENTIUM_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ModItems.ARGENTIUM_LEGGINGS, ModArmorMaterials.ARGENTIUM_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ModItems.ARGENTIUM_BOOTS, ModArmorMaterials.ARGENTIUM_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
     }
 }

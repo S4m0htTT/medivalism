@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "medivalism:argentium_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "medivalism:argentium_ingot"
+  }
+}

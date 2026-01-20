@@ -35,6 +35,42 @@ public class ModRecipeProvider extends FabricRecipeProvider{
                         .input('A', ModItems.ARGENTIUM_INGOT)
                         .criterion(hasItem(ModItems.ARGENTIUM_INGOT), conditionsFromItem(ModItems.ARGENTIUM_INGOT))
                         .offerTo(recipeExporter);
+
+                createShapeless(RecipeCategory.MISC, ModItems.ARGENTIUM_INGOT, 9)
+                        .input(ModBlocks.ARGENTIUM_BLOCK)
+                        .criterion(hasItem(ModBlocks.ARGENTIUM_BLOCK), conditionsFromItem(ModBlocks.ARGENTIUM_BLOCK))
+                        .offerTo(recipeExporter);
+
+                createShaped(RecipeCategory.COMBAT, ModItems.ARGENTIUM_HELMET)
+                        .pattern("AAA")
+                        .pattern("A A")
+                        .pattern("   ")
+                        .input('A', ModItems.ARGENTIUM_INGOT)
+                        .criterion(hasItem(ModItems.ARGENTIUM_INGOT), conditionsFromItem(ModItems.ARGENTIUM_INGOT))
+                        .offerTo(recipeExporter);
+
+                createShaped(RecipeCategory.COMBAT, ModItems.ARGENTIUM_CHESTPLATE)
+                        .pattern("A A")
+                        .pattern("AAA")
+                        .pattern("AAA")
+                        .input('A', ModItems.ARGENTIUM_INGOT)
+                        .criterion(hasItem(ModItems.ARGENTIUM_INGOT), conditionsFromItem(ModItems.ARGENTIUM_INGOT))
+                        .offerTo(recipeExporter);
+
+                createShaped(RecipeCategory.COMBAT, ModItems.ARGENTIUM_LEGGINGS)
+                        .pattern("AAA")
+                        .pattern("A A")
+                        .pattern("A A")
+                        .input('A', ModItems.ARGENTIUM_INGOT)
+                        .criterion(hasItem(ModItems.ARGENTIUM_INGOT), conditionsFromItem(ModItems.ARGENTIUM_INGOT))
+                        .offerTo(recipeExporter);
+
+                createShaped(RecipeCategory.COMBAT, ModItems.ARGENTIUM_BOOTS)
+                        .pattern("A A")
+                        .pattern("A A")
+                        .input('A', ModItems.ARGENTIUM_INGOT)
+                        .criterion(hasItem(ModItems.ARGENTIUM_INGOT), conditionsFromItem(ModItems.ARGENTIUM_INGOT))
+                        .offerTo(recipeExporter);
             }
         };
     }

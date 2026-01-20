@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "medivalism:argentium_ingot"
+  },
+  "pattern": [
+    "A A",
+    "A A"
+  ],
+  "result": {
+    "count": 1,
+    "id": "medivalism:argentium_boots"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "medivalism:argentium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "medivalism:argentium"
+      }
+    ]
+  }
+}
