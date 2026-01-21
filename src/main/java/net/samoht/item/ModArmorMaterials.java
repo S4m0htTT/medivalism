@@ -8,9 +8,11 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Util;
 import net.samoht.Medivalism;
 import net.samoht.util.ModTags;
 
+import java.util.EnumMap;
 import java.util.Map;
 
 public class ModArmorMaterials {
