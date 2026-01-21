@@ -12,6 +12,9 @@ public class ModTags {
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(Medivalism.MOD_ID, name));
         }
+
+        public static final TagKey<Block> NEEDS_ARGENTIUM_TOOL = createTag("needs_argentium_tool");
+        public static final TagKey<Block> INCORRECT_FOR_ARGENTIUM_TOOL = createTag("incorrect_for_argentium_tool");
     }
 
     public static class Items {

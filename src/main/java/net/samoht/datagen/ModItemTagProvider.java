@@ -27,5 +27,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
                 .add(ModItems.ARGENTIUM_CHESTPLATE)
                 .add(ModItems.ARGENTIUM_LEGGINGS)
                 .add(ModItems.ARGENTIUM_BOOTS);
+
+        valueLookupBuilder(ItemTags.SWORDS)
+                .add(ModItems.ARGENTIUM_SWORD);
     }
 }

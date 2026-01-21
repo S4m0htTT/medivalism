@@ -16,6 +16,7 @@ public class ModItems {
 
     public static final Item RAW_ARGENTIUM = registerItem("raw_argentium", Item::new);
     public static final Item ARGENTIUM_INGOT = registerItem("argentium_ingot", Item::new);
+
     public static final Item ARGENTIUM_HELMET = registerItem("argentium_helmet",
             settings -> new ModArmorItem(settings.armor(ModArmorMaterials.ARGENTIUM_ARMOR_MATERIAL, EquipmentType.HELMET)));
     public static final Item ARGENTIUM_CHESTPLATE = registerItem("argentium_chestplate",
@@ -24,6 +25,9 @@ public class ModItems {
             settings -> new ModArmorItem(settings.armor(ModArmorMaterials.ARGENTIUM_ARMOR_MATERIAL, EquipmentType.LEGGINGS)));
     public static final Item ARGENTIUM_BOOTS = registerItem("argentium_boots",
             settings -> new ModArmorItem(settings.armor(ModArmorMaterials.ARGENTIUM_ARMOR_MATERIAL, EquipmentType.BOOTS)));
+
+    public static final Item ARGENTIUM_SWORD = registerItem("argentium_sword",
+            settings -> new Item(settings.sword(ModToolMaterials.ARGENTIUM, 3.0F, -2.4F)));
 
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(Medivalism.MOD_ID, name),

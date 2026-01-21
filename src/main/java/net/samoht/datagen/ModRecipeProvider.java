@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.samoht.block.ModBlocks;
@@ -69,6 +70,15 @@ public class ModRecipeProvider extends FabricRecipeProvider{
                         .pattern("A A")
                         .pattern("A A")
                         .input('A', ModItems.ARGENTIUM_INGOT)
+                        .criterion(hasItem(ModItems.ARGENTIUM_INGOT), conditionsFromItem(ModItems.ARGENTIUM_INGOT))
+                        .offerTo(recipeExporter);
+
+                createShaped(RecipeCategory.COMBAT, ModItems.ARGENTIUM_SWORD)
+                        .pattern("A")
+                        .pattern("A")
+                        .pattern("S")
+                        .input('A', ModItems.ARGENTIUM_INGOT)
+                        .input('S', Items.STICK)
                         .criterion(hasItem(ModItems.ARGENTIUM_INGOT), conditionsFromItem(ModItems.ARGENTIUM_INGOT))
                         .offerTo(recipeExporter);
             }
