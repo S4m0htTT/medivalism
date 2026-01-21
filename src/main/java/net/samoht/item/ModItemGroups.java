@@ -35,13 +35,15 @@ public class ModItemGroups {
     public static final ItemGroup COMBAT_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Medivalism.MOD_ID, "combat_group"),
             //TODO Replace icon by SCYTHE_ORICHALCUM or SWORD_ASTRALITE
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ARGENTIUM_CHESTPLATE))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ARGENTIUM_SWORD))
                     .displayName(Text.translatable("itemgroup.medivalism.combat_group"))
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.ARGENTIUM_HELMET);
                         entries.add(ModItems.ARGENTIUM_CHESTPLATE);
                         entries.add(ModItems.ARGENTIUM_LEGGINGS);
                         entries.add(ModItems.ARGENTIUM_BOOTS);
+                        entries.add(ModItems.ARGENTIUM_SWORD);
+                        entries.add(ModItems.ARGENTIUM_SPEAR);
                     })).build());
 
     public static void registerItemGroups() {

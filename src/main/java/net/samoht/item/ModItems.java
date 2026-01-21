@@ -28,6 +28,9 @@ public class ModItems {
 
     public static final Item ARGENTIUM_SWORD = registerItem("argentium_sword",
             settings -> new Item(settings.sword(ModToolMaterials.ARGENTIUM, 3.0F, -2.4F)));
+    public static final Item ARGENTIUM_SPEAR = registerItem("argentium_spear",
+            settings -> new Item(settings.spear(ModToolMaterials.ARGENTIUM, 0.95F, 1.0F, 0.55F, 2.75F, 7.75F, 6.75F, 5.1F, 11.0F, 4.6F)));
+
 
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(Medivalism.MOD_ID, name),

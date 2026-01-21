@@ -32,5 +32,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(ModItems.ARGENTIUM_BOOTS, ModArmorMaterials.ARGENTIUM_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
 
         itemModelGenerator.register(ModItems.ARGENTIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.registerSpear(ModItems.ARGENTIUM_SPEAR);
     }
 }
