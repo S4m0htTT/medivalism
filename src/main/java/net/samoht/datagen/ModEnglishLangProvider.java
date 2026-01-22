@@ -27,9 +27,14 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.ARGENTIUM_BOOTS, "Argentium Boots");
         translationBuilder.add(ModItems.ARGENTIUM_SWORD, "Argentium Sword");
         translationBuilder.add(ModItems.ARGENTIUM_SPEAR, "Argentium Spear");
+        translationBuilder.add(ModItems.ARGENTIUM_PICKAXE, "Argentium Pickaxe");
+        translationBuilder.add(ModItems.ARGENTIUM_AXE, "Argentium Axe");
+        translationBuilder.add(ModItems.ARGENTIUM_SHOVEL, "Argentium Shovel");
+        translationBuilder.add(ModItems.ARGENTIUM_HOE, "Argentium Hoe");
 
         translationBuilder.add("itemgroup.medivalism.block_group", "Medivalism Blocks");
         translationBuilder.add("itemgroup.medivalism.ingredients_group", "Medivalism Ingredients");
         translationBuilder.add("itemgroup.medivalism.combat_group", "Medivalism Combats");
+        translationBuilder.add("itemgroup.medivalism.tools_group", "Medivalism Tools");
     }
 }

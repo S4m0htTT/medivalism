@@ -34,5 +34,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
 
         valueLookupBuilder(ItemTags.SPEARS)
                 .add(ModItems.ARGENTIUM_SPEAR);
+
+        valueLookupBuilder(ItemTags.PICKAXES)
+                .add(ModItems.ARGENTIUM_PICKAXE);
+
+        valueLookupBuilder(ItemTags.AXES)
+                .add(ModItems.ARGENTIUM_AXE);
+
+        valueLookupBuilder(ItemTags.SHOVELS)
+                .add(ModItems.ARGENTIUM_SHOVEL);
+
+        valueLookupBuilder(ItemTags.HOES)
+                .add(ModItems.ARGENTIUM_HOE);
     }
 }

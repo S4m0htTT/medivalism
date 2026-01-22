@@ -30,7 +30,14 @@ public class ModItems {
             settings -> new Item(settings.sword(ModToolMaterials.ARGENTIUM, 3.0F, -2.4F)));
     public static final Item ARGENTIUM_SPEAR = registerItem("argentium_spear",
             settings -> new Item(settings.spear(ModToolMaterials.ARGENTIUM, 0.95F, 1.0F, 0.55F, 2.75F, 7.75F, 6.75F, 5.1F, 11.0F, 4.6F)));
-
+    public static final Item ARGENTIUM_PICKAXE = registerItem("argentium_pickaxe",
+            settings -> new Item(settings.pickaxe(ModToolMaterials.ARGENTIUM, 1.0F, -2.8F)));
+    public static final Item ARGENTIUM_AXE = registerItem("argentium_axe",
+            settings -> new Item(settings.axe(ModToolMaterials.ARGENTIUM, 5.75F, -3.1F)));
+    public static final Item ARGENTIUM_SHOVEL = registerItem("argentium_shovel",
+            settings -> new Item(settings.shovel(ModToolMaterials.ARGENTIUM, 1.5F, -2.8F)));
+    public static final Item ARGENTIUM_HOE = registerItem("argentium_hoe",
+            settings -> new Item(settings.hoe(ModToolMaterials.ARGENTIUM, -2.5F, 1.0F)));
 
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(Medivalism.MOD_ID, name),

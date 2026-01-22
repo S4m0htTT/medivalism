@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "medivalism:argentium_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "AA ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "medivalism:argentium_hoe"
+  }
+}

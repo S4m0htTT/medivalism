@@ -33,5 +33,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.ARGENTIUM_SWORD, Models.HANDHELD);
         itemModelGenerator.registerSpear(ModItems.ARGENTIUM_SPEAR);
+        itemModelGenerator.register(ModItems.ARGENTIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ARGENTIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ARGENTIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ARGENTIUM_HOE, Models.HANDHELD);
     }
 }

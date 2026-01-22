@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_argentium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "medivalism:argentium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "medivalism:argentium_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_argentium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "medivalism:argentium_hoe"
+    ]
+  }
+}

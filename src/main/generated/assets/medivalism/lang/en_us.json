@@ -2,15 +2,20 @@
   "block.medivalism.argentium_block": "Argentium Block",
   "block.medivalism.argentium_ore": "Argentium Ore",
   "block.medivalism.deepslate_argentium_ore": "Deepslate Argentium Ore",
+  "item.medivalism.argentium_axe": "Argentium Axe",
   "item.medivalism.argentium_boots": "Argentium Boots",
   "item.medivalism.argentium_chestplate": "Argentium Chestplate",
   "item.medivalism.argentium_helmet": "Argentium Helmet",
+  "item.medivalism.argentium_hoe": "Argentium Hoe",
   "item.medivalism.argentium_ingot": "Argentium Ingot",
   "item.medivalism.argentium_leggings": "Argentium Leggings",
+  "item.medivalism.argentium_pickaxe": "Argentium Pickaxe",
+  "item.medivalism.argentium_shovel": "Argentium Shovel",
   "item.medivalism.argentium_spear": "Argentium Spear",
   "item.medivalism.argentium_sword": "Argentium Sword",
   "item.medivalism.raw_argentium": "Raw Argentium",
   "itemgroup.medivalism.block_group": "Medivalism Blocks",
   "itemgroup.medivalism.combat_group": "Medivalism Combats",
-  "itemgroup.medivalism.ingredients_group": "Medivalism Ingredients"
+  "itemgroup.medivalism.ingredients_group": "Medivalism Ingredients",
+  "itemgroup.medivalism.tools_group": "Medivalism Tools"
 }
