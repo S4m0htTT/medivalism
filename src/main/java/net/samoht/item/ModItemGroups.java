@@ -43,6 +43,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ARGENTIUM_LEGGINGS);
                         entries.add(ModItems.ARGENTIUM_BOOTS);
                         entries.add(ModItems.ARGENTIUM_SWORD);
+                        entries.add(ModItems.ARGENTIUM_DAGGER);
                         entries.add(ModItems.ARGENTIUM_SPEAR);
                     })).build());
 
@@ -55,7 +56,6 @@ public class ModItemGroups {
                         entries.add(ModItems.ARGENTIUM_AXE);
                         entries.add(ModItems.ARGENTIUM_SHOVEL);
                         entries.add(ModItems.ARGENTIUM_HOE);
-                        entries.add(ModItems.ARGENTIUM_DAGGER);
                         entries.add(ModItems.ARGENTIUM_SCYTHE);
                     })).build());
 
