@@ -126,6 +126,24 @@ public class ModRecipeProvider extends FabricRecipeProvider{
                         .input('S', Items.STICK)
                         .criterion(hasItem(ModItems.ARGENTIUM_INGOT), conditionsFromItem(ModItems.ARGENTIUM_INGOT))
                         .offerTo(recipeExporter);
+
+                createShaped(RecipeCategory.COMBAT, ModItems.ARGENTIUM_DAGGER)
+                        .pattern("A")
+                        .pattern("S")
+                        .input('A', ModItems.ARGENTIUM_INGOT)
+                        .input('S', Items.STICK)
+                        .criterion(hasItem(ModItems.ARGENTIUM_INGOT), conditionsFromItem(ModItems.ARGENTIUM_INGOT))
+                        .offerTo(recipeExporter);
+
+                createShaped(RecipeCategory.TOOLS, ModItems.ARGENTIUM_SCYTHE)
+                        .pattern("AA ")
+                        .pattern(" SA")
+                        .pattern(" S ")
+                        .input('A', ModItems.ARGENTIUM_INGOT)
+                        .input('S', Items.STICK)
+                        .criterion(hasItem(ModItems.ARGENTIUM_INGOT), conditionsFromItem(ModItems.ARGENTIUM_INGOT))
+                        .offerTo(recipeExporter);
+
             }
         };
     }

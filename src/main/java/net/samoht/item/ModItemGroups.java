@@ -55,6 +55,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ARGENTIUM_AXE);
                         entries.add(ModItems.ARGENTIUM_SHOVEL);
                         entries.add(ModItems.ARGENTIUM_HOE);
+                        entries.add(ModItems.ARGENTIUM_DAGGER);
+                        entries.add(ModItems.ARGENTIUM_SCYTHE);
                     })).build());
 
     public static void registerItemGroups() {
