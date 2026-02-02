@@ -23,5 +23,6 @@ public class ModTags {
         }
 
         public static final TagKey<Item> ARGENTIUM_REPAIR = createTag("argentium_repair");
+        public static final TagKey<Item> PYROLITHE_REPAIR = createTag("pyrolithe_repair");
     }
 }

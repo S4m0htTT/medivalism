@@ -21,6 +21,7 @@ public class ModItems {
 
     public static final Item RAW_ARGENTIUM = registerItem("raw_argentium", Item::new);
     public static final Item ARGENTIUM_INGOT = registerItem("argentium_ingot", Item::new);
+    public static final Item PYROLITHE = registerItem("pyrolithe", Item::new);
 
     public static final Item ARGENTIUM_HELMET = registerItem("argentium_helmet",
             settings -> new ModArmorItem(settings.armor(ModArmorMaterials.ARGENTIUM_ARMOR_MATERIAL, EquipmentType.HELMET)));

@@ -1,10 +1,11 @@
 // 1.21.11	-999999999-01-01T00:00:00	medivalism/Tags for minecraft:item
 13e888eeecb397a8f568fcd45edbf492ea447627 data/medivalism/tags/item/argentium_repair.json
+4065094dc1956013e6f05e05a839dd9ee41741b0 data/medivalism/tags/item/pyrolithe_repair.json
 d4421241e1a8da1f670f0ccb0f81ce68ed731681 data/minecraft/tags/item/axes.json
 99e40eeedada30eab85a3946d961064cd26a23bc data/minecraft/tags/item/hoes.json
 a5634eb6e20020ff77ef57ed993975853614aaa8 data/minecraft/tags/item/pickaxes.json
 e2291028a3b2e0ba84aa3638d4f42fcd0e0f2983 data/minecraft/tags/item/shovels.json
 ef3459e2b3ac667191646ae4826150152ff626b0 data/minecraft/tags/item/spears.json
 10b005c994310895b5a5cea5f7011a7e736254aa data/minecraft/tags/item/swords.json
-13e888eeecb397a8f568fcd45edbf492ea447627 data/minecraft/tags/item/trim_materials.json
+0d74278eeb2a7177e56bcdcfec7e90214b7ab4c6 data/minecraft/tags/item/trim_materials.json
 71963ff2160bcbf33f7edd4040fec8e4177e984a data/minecraft/tags/item/trimmable_armor.json

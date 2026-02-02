@@ -20,8 +20,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
         valueLookupBuilder(ModTags.Items.ARGENTIUM_REPAIR)
                 .add(ModItems.ARGENTIUM_INGOT);
 
+        valueLookupBuilder(ModTags.Items.PYROLITHE_REPAIR)
+                .add(ModItems.PYROLITHE);
+
         valueLookupBuilder(ItemTags.TRIM_MATERIALS)
-                .add(ModItems.ARGENTIUM_INGOT);
+                .add(ModItems.ARGENTIUM_INGOT)
+                .add(ModItems.PYROLITHE);
 
         valueLookupBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.ARGENTIUM_HELMET)

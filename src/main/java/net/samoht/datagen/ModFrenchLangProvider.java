@@ -33,6 +33,7 @@ public class ModFrenchLangProvider extends FabricLanguageProvider{
         translationBuilder.add(ModItems.ARGENTIUM_HOE, "Houe en argentium");
         translationBuilder.add(ModItems.ARGENTIUM_DAGGER, "Dague en argentium");
         translationBuilder.add(ModItems.ARGENTIUM_SCYTHE, "Faux en argentium");
+        translationBuilder.add(ModItems.PYROLITHE, "Pyrolithe");
 
         translationBuilder.add("itemgroup.medivalism.block_group", "Medivalism Blocks");
         translationBuilder.add("itemgroup.medivalism.ingredients_group", "Medivalism Ingrédients");

@@ -33,6 +33,7 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.ARGENTIUM_HOE, "Argentium Hoe");
         translationBuilder.add(ModItems.ARGENTIUM_DAGGER, "Argentium Dagger");
         translationBuilder.add(ModItems.ARGENTIUM_SCYTHE, "Argentium Scythe");
+        translationBuilder.add(ModItems.PYROLITHE, "Pyrolithe");
 
         translationBuilder.add("itemgroup.medivalism.block_group", "Medivalism Blocks");
         translationBuilder.add("itemgroup.medivalism.ingredients_group", "Medivalism Ingredients");

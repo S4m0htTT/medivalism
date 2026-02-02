@@ -25,6 +25,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RAW_ARGENTIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARGENTIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PYROLITHE, Models.GENERATED);
 
         itemModelGenerator.registerArmor(ModItems.ARGENTIUM_HELMET, ModArmorMaterials.ARGENTIUM_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
         itemModelGenerator.registerArmor(ModItems.ARGENTIUM_CHESTPLATE, ModArmorMaterials.ARGENTIUM_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
